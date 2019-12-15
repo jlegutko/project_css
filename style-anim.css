@@ -2,7 +2,7 @@ main {
     display: flex;
     justify-content: center;
     flex-flow:row;
-    margin: 30px;
+    margin: 25px;
     flex-wrap: wrap;
 }
 section {
