@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 10px;
+}
+.nav-wrapper {
+    width: 100%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    color: grey;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+nav ul a:hover {
+    color: black;
+}
+@media screen and (min-width: 768px){
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

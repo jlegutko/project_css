@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-flow:row;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+section {
+    flex-basis: 320px; /*minimalna szerokość danej sekcji*/
+    padding: 20px;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    box-shadow: 10px 10px 5px -5px rgba(186,186,186,0.75);
+}
+section p {
+    text-indent: 10px;
+    text-align: justify;
+}
+section img {
+    width: 100%;
+}
+section column-2{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
